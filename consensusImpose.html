@@ -1,0 +1,43 @@
+	
+    
+    <div id="contract" class="hidden">
+		<center><h4><b>MEETING OF THE MINDS (and... CHECKSUMS?)</b></h4></center>
+ 	<center>What you write here is for checksum generation only, not an archive. It will be deleted, so please store it elsewhere!</center>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-6" style="background-color:#ffffb3;">
+	<form id="contractfields" >
+					<div class="form-group">		
+							<label for="offer1Area">YOUR Offer</label>
+							 <textarea rows="6" class="form-control input-lg phoenix-off" id="offer1Area" name="offer1Area" placeholder="(Insert your offer here)" autofocus maxlength="1500"></textarea>
+								<span style="color:darkcyan" id="chars"> Characters left</span>
+								<button type="button" id="offerErase">Clear your offer</button>
+								<button type="button" id="defaultOffer">Edit A Standard Offer/Template</button>
+					</div>
+				<div class="form-group">
+							<label for="checksum1">YOUR Checksum: (move mouse over checksum field to update it)</label>
+							<input class="form-control input-lg" id="checksum1" readonly></input>
+					</div>
+		<button class="btn btn-primary" type="submit" id="offerSubmit" name="offerSubmit">Submit/Retrieve/Refresh</button>
+	</form>
+				</div>
+
+	
+ 				<div class="col-sm-6" style="background-color:#f2ffe6;">
+		<form>
+					<div class="form-group">
+						<label for="offer2Area">OTHER Party's Offer:</label>
+						<textarea rows="6" class="form-control input-lg" id="offer2Area" placeholder="(At this time the other party's contract details aren't available. Refresh and/or ask them about it.)" autofocus maxlength="1500" readonly></textarea>
+						 <button type="button" id="adoptOffer"><== Duplicate other party's offer to adopt or modify it</button>
+					</div>
+				<div class="form-group">
+						<label for="checksum2">OTHER Party's Checksum:</label>
+						<input class="form-control input-lg" id="checksum2" readonly></input>
+				</div>
+		</form>
+				</div>
+				</div>
+		</div>
+	
+	</div> <!--  End of Contract	-->			
